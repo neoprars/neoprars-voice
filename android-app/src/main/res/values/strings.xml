@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Neoprars Voice</string>
+    <string name="ime_name">Neoprars Voice (teclado)</string>
+
+    <!-- Pantalla principal -->
+    <string name="main_subtitle">Dictado por voz. El audio y el texto a pulir se envían a los servicios que elijas.</string>
+    <string name="polish_switch">Pulir el texto con IA</string>
+    <string name="chunked_switch">Dictado por tramos (transcribe mientras hablás)</string>
+    <string name="language_label">Idioma del dictado</string>
+    <string name="section_status">Estado</string>
+    <string name="section_dictation">Dictado</string>
+    <string name="section_polish">Pulido</string>
+    <string name="section_keys">Claves y modelos</string>
+    <string name="section_setup">Activación</string>
+    <string name="section_test">Prueba</string>
+    <string name="transcriber_label">Servicio de transcripción</string>
+    <string name="polisher_label">Servicio de pulido</string>
+    <string name="style_label">Estilo del pulido</string>
+    <string name="style_neutral">Neutro</string>
+    <string name="style_formal">Formal</string>
+    <string name="style_informal">Informal</string>
+    <string name="style_concise">Conciso</string>
+    <string name="key_hint">Clave de %1$s</string>
+    <string name="key_saved_helper">Guardada. Escribí otra para reemplazarla.</string>
+    <string name="key_missing_helper">Falta: sin esta clave no se puede usar %1$s.</string>
+    <string name="provider_with_status">%1$s · %2$s</string>
+    <string name="provider_experimental">Experimental</string>
+    <string name="provider_planned">Próximamente</string>
+    <string name="key_check">Probar clave</string>
+    <string name="key_check_running">Probando…</string>
+    <string name="key_check_empty">Escribí una clave para probarla.</string>
+    <string name="key_check_valid">Clave válida (no verifica saldo).</string>
+    <string name="key_check_valid_unsaved">Clave válida (no verifica saldo). Tocá «Guardar cambios» para usarla.</string>
+    <string name="key_check_auth">Clave inválida o sin permisos.</string>
+    <string name="key_check_network">Sin conexión. Revisá internet y probá de nuevo.</string>
+    <string name="key_check_limit">Sin saldo o límite alcanzado.</string>
+    <string name="key_check_unknown">No se pudo comprobar. Probá de nuevo en un rato.</string>
+
+    <!-- Ayuda para conseguir la clave. Pasos según la documentación oficial citada en ProviderCatalog.keyHelp. -->
+    <string name="key_help_button">Cómo conseguir la clave</string>
+    <string name="key_help_subtitle">Cómo conseguir la clave</string>
+    <string name="key_help_open">Abrir página de claves</string>
+    <string name="key_help_step">%1$d. %2$s</string>
+    <string name="key_help_no_browser">No hay un navegador para abrir la página.</string>
+    <string name="key_help_generic">Entrá a la página de claves de %1$s, creá una clave nueva y pegala en esta pantalla.</string>
+    <string name="key_help_personal">La clave es personal: no la compartas con nadie.</string>
+    <string name="key_help_billing">El uso se cobra en tu cuenta de %1$s. Revisá en su sitio si hace falta cargar saldo antes de usarla.</string>
+    <string name="key_help_invalid">Si al probarla dice «Clave inválida», revisá que esté copiada completa y sin espacios.</string>
+    <string-array name="key_help_steps_openai">
+        <item>Entrá a la plataforma de OpenAI e iniciá sesión, o creá una cuenta.</item>
+        <item>En la página de claves (API keys), creá una clave nueva.</item>
+        <item>Copiala y pegala en el campo «Clave de OpenAI» de esta pantalla.</item>
+    </string-array>
+    <string-array name="key_help_steps_anthropic">
+        <item>Entrá a la consola de Claude e iniciá sesión, o creá una cuenta.</item>
+        <item>Abrí la página de claves (API keys) y tocá «Create key».</item>
+        <item>Ponele un nombre, elegí cuándo vence y creala.</item>
+        <item>Copiá la clave (empieza con sk-ant-): la consola la muestra una sola vez.</item>
+        <item>Pegala en el campo «Clave de Anthropic Claude» de esta pantalla.</item>
+    </string-array>
+    <string-array name="key_help_steps_gemini">
+        <item>Entrá a Google AI Studio con tu cuenta de Google.</item>
+        <item>La primera vez, al aceptar los términos, AI Studio crea un proyecto y una clave.</item>
+        <item>Si no aparece ninguna, en la página de claves (API Keys) creá una nueva.</item>
+        <item>Copiala y pegala en el campo «Clave de Google Gemini» de esta pantalla.</item>
+    </string-array>
+    <string-array name="key_help_steps_xai">
+        <item>Creá una cuenta en la consola de xAI, o iniciá sesión.</item>
+        <item>Cargá créditos en la cuenta: xAI lo pide para empezar a usar la API.</item>
+        <item>En la página de claves (API Keys), creá una clave nueva.</item>
+        <item>Copiala y pegala en el campo «Clave de xAI Grok» de esta pantalla.</item>
+    </string-array>
+    <string-array name="key_help_steps_deepgram">
+        <item>Entrá a la consola de Deepgram e iniciá sesión, o creá una cuenta.</item>
+        <item>Elegí el proyecto en el menú «Projects», arriba a la izquierda.</item>
+        <item>Abrí «Settings» y después «API Keys».</item>
+        <item>Tocá «Create a New API Key», completá nombre y permisos y tocá «Create Key».</item>
+        <item>Copiá la clave: Deepgram la muestra una sola vez.</item>
+    </string-array>
+    <string name="model_transcriber_hint">Modelo de transcripción (opcional)</string>
+    <string name="model_polisher_hint">Modelo de pulido (opcional)</string>
+    <string name="model_helper">Vacío = %1$s</string>
+    <string name="test_field_hint">Tocá acá y dictá</string>
+    <string name="status_keys">Claves de los servicios elegidos</string>
+    <string name="status_mic">Permiso de micrófono</string>
+    <string name="status_a11y">Botón flotante (Accesibilidad)</string>
+    <string name="status_keyboard">Teclado propio (opcional)</string>
+    <string name="status_ready">Listo</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_missing_keys">Falta %1$s</string>
+    <string name="btn_mic">Dar permiso de micrófono</string>
+    <string name="btn_a11y">Activar el botón flotante</string>
+    <string name="btn_enable_keyboard">Activar el teclado Neoprars Voice (opcional)</string>
+    <string name="btn_pick_keyboard">Elegir Neoprars Voice como teclado</string>
+    <string name="saved_transcriber">Transcripción: %1$s</string>
+    <string name="saved_polisher">Pulido: %1$s</string>
+    <string name="saved_style">Estilo: %1$s</string>
+    <string name="language_es">Español</string>
+    <string name="language_en">English</string>
+    <string name="language_auto">Automático (detectar)</string>
+    <string name="openai_key_hint">Clave de OpenAI (sk-…)</string>
+    <string name="vocabulary_hint">Vocabulario / nombres propios (opcional)</string>
+    <string name="save_changes">Guardar cambios</string>
+
+    <!-- Avisos al guardar -->
+    <string name="saved_polish_on">Pulido activado</string>
+    <string name="saved_polish_off">Pulido desactivado</string>
+    <string name="saved_chunked_on">Dictado por tramos activado</string>
+    <string name="saved_chunked_off">Dictado por tramos desactivado</string>
+    <string name="saved_language">Idioma: %1$s</string>
+    <string name="saved_changes">Cambios guardados</string>
+    <string name="unsaved_title">Tenés cambios sin guardar</string>
+    <string name="unsaved_body">¿Querés guardar la clave o el vocabulario antes de salir?</string>
+    <string name="unsaved_save">Guardar</string>
+    <string name="unsaved_discard">Descartar</string>
+    <string name="unsaved_keep_editing">Seguir editando</string>
+
+    <!-- Teclado -->
+    <string name="hold_to_talk">Mantené para hablar</string>
+    <string name="listening">Escuchando…</string>
+    <string name="transcribing">Transcribiendo…</string>
+    <string name="kb_space">espacio</string>
+    <string name="kb_switch">Cambiar de teclado</string>
+    <string name="kb_backspace">Borrar</string>
+    <string name="kb_enter">Enter</string>
+
+    <!-- Botón flotante / accesibilidad -->
+    <string name="floating_button_description">Dictar con Neoprars Voice: tocá para empezar a hablar</string>
+    <string name="floating_button_stop_description">Parar la grabación de Neoprars Voice</string>
+    <string name="a11y_description">Muestra un botón de dictado sobre el teclado cuando tocás un campo de texto y escribe allí lo que dictás. Lee el texto de ese campo solo al insertar, para ubicar el cursor, y no lo guarda ni lo envía. No actúa en campos de contraseña ni guarda el contenido de la pantalla.</string>
+    <string name="a11y_disclosure_title">Permiso de accesibilidad</string>
+    <string name="a11y_disclosure_body">Neoprars Voice usa el servicio de accesibilidad solo para tres cosas: saber si tocaste un campo de texto, saber dónde está el teclado para ubicar el botón, y escribir en ese campo lo que dictás.
+
+Para escribir en la posición del cursor, lee el texto de ese campo solo en el momento de insertar, y no lo guarda ni lo envía. No actúa en campos de contraseña ni guarda el contenido de la pantalla.
+
+Cuando dictás, el audio se envía al servicio de transcripción que elegiste (por defecto OpenAI) y el texto, si activaste el pulido, al servicio de pulido que elegiste (por defecto también OpenAI).
+
+Vas a pasar a Ajustes para activarlo.</string>
+    <string name="a11y_disclosure_continue">Entiendo, continuar</string>
+    <string name="a11y_disclosure_cancel">Cancelar</string>
+
+    <!-- Errores y avisos -->
+    <string name="no_key">Falta la clave del servicio de transcripción. Abrí Neoprars Voice.</string>
+    <string name="no_mic">Falta el permiso de micrófono. Abrí Neoprars Voice.</string>
+    <string name="mic_unavailable">No se pudo usar el micrófono.</string>
+    <string name="mic_blocked">Android no dejó grabar: el micrófono está desactivado en los ajustes rápidos o lo está usando otra app (una llamada, por ejemplo). Activalo o cerrá la otra app y probá de nuevo.</string>
+    <string name="insert_failed">No se pudo escribir en este campo.</string>
+    <string name="too_short">Audio muy corto</string>
+    <string name="silent">No se detectó voz</string>
+    <string name="auth_error">Clave rechazada. Revisá la clave en Neoprars Voice.</string>
+    <string name="rate_limit">Límite o saldo agotado en la API.</string>
+    <string name="network_error">Sin conexión con el servicio.</string>
+    <string name="server_error">Error del servicio, probá de nuevo.</string>
+    <string name="generic_error">No se pudo transcribir.</string>
+
+    <!-- Acerca de -->
+    <string name="about_button">Acerca de Neoprars Voice</string>
+    <string name="about_title">Acerca de</string>
+    <string name="about_version">Versión %1$s (%2$d)</string>
+    <string name="about_developed_by">Desarrollado por NeoPrars</string>
+    <string name="about_license">Licencia</string>
+    <string name="about_license_summary">PolyForm Noncommercial 1.0.0: código disponible para uso no comercial. El nombre y el logo no están incluidos.</string>
+    <string name="about_source">Código fuente</string>
+    <!-- Dirección pública del repositorio. Vacía = la fila no se muestra. -->
+    <string name="about_source_url" translatable="false">https://github.com/neoprars/neoprars-voice</string>
+    <string name="about_privacy">Privacidad</string>
+    <string name="about_privacy_summary">Qué datos salen del teléfono y adónde van.</string>
+    <string name="about_privacy_body">• La app no guarda audio ni texto dictado.
+
+• El audio se envía solo al servicio de transcripción que elegiste y, si activaste el pulido, el texto transcripto se envía al servicio de pulido que elegiste. Lo que haga cada servicio con esos datos depende de sus propias condiciones.
+
+• Con Gemini, la app pide que el servicio no guarde el pedido.
+
+• El registro interno de la app anota solo duraciones y conteos, nunca texto, audio ni claves.
+
+• No hay telemetría, analíticas ni servidores propios.
+
+• Las claves se guardan cifradas en el teléfono y solo salen de él hacia el servicio correspondiente.
+
+• El botón flotante lee el texto del campo enfocado solo al insertar, para ubicar el cursor, y no lo guarda ni lo envía. No actúa en campos de contraseña.</string>
+    <string name="about_third_party">Licencias de terceros</string>
+    <string name="about_third_party_summary">Bibliotecas de código abierto que usa la app.</string>
+    <string name="about_close">Cerrar</string>
+</resources>

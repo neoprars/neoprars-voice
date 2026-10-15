@@ -1,0 +1,30 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+# Nunca subas claves
+*.key
+.env
+
+# Binarios y firmas: nunca se versionan
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+google-services.json
+
+# Audio, registros y capturas de pruebas
+*.wav
+*.m4a
+*.log
+captures/
+
+# Entorno y notas locales
+.claude/
+.env*
+neoprars-assets.zip
+notas/
+CLAUDE.md

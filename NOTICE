@@ -1,0 +1,21 @@
+Neoprars Voice
+Copyright NeoPrars
+
+El código de este repositorio se distribuye bajo la PolyForm Noncommercial
+License 1.0.0 (ver el archivo LICENSE).
+
+Marca
+-----
+El nombre "Neoprars Voice", el nombre "NeoPrars" y el logo e íconos de la app
+(entre ellos los archivos ic_launcher* de android-app/src/main/res) NO están
+cubiertos por esa licencia. La licencia permite usar y modificar el código con
+fines no comerciales, pero no permite usar el nombre ni el logo para identificar
+otra app, una versión modificada o un servicio derivado, ni dar a entender que
+NeoPrars lo respalda. Quien distribuya una versión modificada debe cambiarle el
+nombre y el ícono.
+
+Servicios de terceros
+---------------------
+OpenAI, Anthropic, Claude, Google, Gemini, xAI, Grok y Deepgram son marcas de
+sus respectivos dueños. Se mencionan solo para indicar con qué servicios puede
+conectarse la app; no implican relación ni respaldo.

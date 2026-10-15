@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kb_background">#FF101113</color>
+    <color name="kb_key">#FF26282C</color>
+    <color name="kb_key_text">#FFF2F3F5</color>
+    <color name="kb_status_text">#FF8E939B</color>
+    <color name="kb_talk">#FFF2F3F5</color>
+    <color name="kb_talk_text">#FF17181A</color>
+    <color name="kb_ripple">#33FFFFFF</color>
+    <color name="kb_talk_ripple">#33000000</color>
+
+    <color name="app_background">#FF101113</color>
+    <color name="app_surface">#FF1C1D20</color>
+    <color name="app_on_surface">#FFF2F3F5</color>
+    <color name="app_secondary_text">#FF8E939B</color>
+    <color name="app_accent">#FFF2F3F5</color>
+    <color name="app_on_accent">#FF17181A</color>
+    <color name="app_divider">#26F2F3F5</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Permisos mínimos: eventos de foco y de ventanas, y acceso al contenido de ventana
+  (necesario para detectar el campo enfocado y escribir en él).
+  No se declara isAccessibilityTool: esta app no es una herramienta de accesibilidad.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewFocused|typeWindowStateChanged|typeWindowsChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/a11y_description"
+    android:notificationTimeout="100"
+    android:settingsActivity="com.neoprars.voice.app.MainActivity" />

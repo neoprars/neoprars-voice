@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Teclado: neutro y monocromático, a tono con el botón flotante (grafito / blanco). -->
+    <color name="kb_background">#FFF0F1F4</color>
+    <color name="kb_key">#FFFFFFFF</color>
+    <color name="kb_key_text">#FF17181A</color>
+    <color name="kb_status_text">#FF6B7078</color>
+    <color name="kb_talk">#FF17181A</color>
+    <color name="kb_talk_text">#FFFFFFFF</color>
+    <color name="kb_ripple">#22000000</color>
+    <color name="kb_talk_ripple">#44FFFFFF</color>
+
+    <!-- Pantalla de ajustes: mismos tonos que el teclado. -->
+    <color name="app_background">#FFF0F1F4</color>
+    <color name="app_surface">#FFFFFFFF</color>
+    <color name="app_on_surface">#FF17181A</color>
+    <color name="app_secondary_text">#FF6B7078</color>
+    <color name="app_accent">#FF17181A</color>
+    <color name="app_on_accent">#FFFFFFFF</color>
+    <color name="app_divider">#1F17181A</color>
+</resources>
